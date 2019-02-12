@@ -8,7 +8,11 @@ Ubuntu comes with opensource ubuntu NVIDIA driver called nouveau. So first step 
   <li> Install libcupti</li>
   <li>Adding path of cuda toolkit</li>
   <li> Installing Tensorflow-GPU on virtual environment</li>
- </ol>  
+ </ol>    
+ 
+ Please see the below image to get with the title of the repository
+ 
+![rtx2080it](https://user-images.githubusercontent.com/47202519/52617477-fd046400-2ec1-11e9-8a61-35d0aa172be7.jpg)  
  
 ## 1. Disabling nouveau    
 <br>
