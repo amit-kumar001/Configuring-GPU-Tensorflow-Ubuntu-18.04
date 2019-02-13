@@ -10,9 +10,10 @@ Ubuntu comes with opensource ubuntu NVIDIA driver called nouveau. So first step 
   <li> Installing Tensorflow-GPU on virtual environment</li>
  </ol>    
  
- Please see the below image to get with the title of the repository
+ Please see the below image to get with the title of the repository  
  
-![rtx2080it](https://user-images.githubusercontent.com/47202519/52617477-fd046400-2ec1-11e9-8a61-35d0aa172be7.jpg)  
+ ![rtx2080it500x300](https://user-images.githubusercontent.com/47202519/52690389-8334af00-2f83-11e9-885d-8e0ae1717ef2.jpg)
+ 
  
 ## 1. Disabling nouveau    
 <br>
