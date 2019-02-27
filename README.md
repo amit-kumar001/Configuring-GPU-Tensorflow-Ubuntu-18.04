@@ -26,6 +26,8 @@ nano /etc/modprobe.d/blacklist-nouveau.conf
 #Please update the below content in this file
 blacklist nouveau
 options nouveau modeset=0
+sudo update-initramfs -u
+lsmod | grep nouveau
 
 ```
 ## 2. Install cuda 9.0 Toolkit for Ubuntu 18.04 LTS 
