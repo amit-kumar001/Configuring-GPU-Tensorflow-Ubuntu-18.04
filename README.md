@@ -30,10 +30,12 @@ sudo update-initramfs -u
 lsmod | grep nouveau
 
 ```  
+
+
+## 2. Install cuda 9.0 Toolkit for Ubuntu 18.04 LTS  
 ![cuda](https://user-images.githubusercontent.com/47202519/53488915-a7c97480-3ab5-11e9-8eb8-ad46aa9f50c8.png)
 
 
-## 2. Install cuda 9.0 Toolkit for Ubuntu 18.04 LTS 
 cuda is the programming language develped by Nvidia and is <strong>only meant</strong> for nvidia.GPU processes the tensors or arrays using the GPU cores (cuda cores), where CPU are having only limited cores whereas GPU has a lot of cores and hence the processing capability of GPU is far far better than CPU. It is pci-e which connects CPU with GPU. When task come to the CPU, it transfers it to GPU memory. GPU again transfer it to the CUDA Cores. Result is transfered back to the CPU memory which we see it. To install cuda toolkit for ubuntu 18.04, please remember that official toolkit has come for ubuntu 17.04. But it will also support ubuntu 18.04. Please follow the below link.  
 <ul>  
   <li> Before this step, please install Nvidia Drivers (proprietary)</li>
