@@ -18,7 +18,6 @@ Ubuntu comes with opensource ubuntu NVIDIA driver called nouveau. So first step 
 ## 1. Disabling nouveau    
 <br>
 Nouveau is the community/organization that makes the open source drivers for nvidia graphic card. It provides open source drivers. Developers performs reverse enginerring of nvidia proprietary drivers. As we need to build the proprietary drivers for the nvidia, open source ubuntu drivers needs to be disabled. So please type the below code to disable it.  
-  
 
 ```
 #Create below file
@@ -30,7 +29,15 @@ sudo update-initramfs -u
 lsmod | grep nouveau
 
 ```  
+After this step,it is important to download the version of the nvidia drivers which is recommended for the ubuntu system. Please type the below command in the terminal  
 
+```
+ubuntu-drivers devices | grep "nvidia-driver"
+```  
+Please see the output for my system. My configuration is GPU __[RTX 2080 Ti]__ on Ubuntu __18.04 LTS__.  
+
+driver   : nvidia-driver-410 - third-party free  
+driver   : nvidia-driver-415 - third-party free recommended
 
 ## 2. Install cuda 9.0 Toolkit for Ubuntu 18.04 LTS  
 ![cuda](https://user-images.githubusercontent.com/47202519/53488915-a7c97480-3ab5-11e9-8eb8-ad46aa9f50c8.png)
